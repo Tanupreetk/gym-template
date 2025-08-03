@@ -32,3 +32,6 @@ body {
     color: #C4C4C4;
     margin-top: 10px;
 }
+html {
+  scroll-behavior: smooth;
+}

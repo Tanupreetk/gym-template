@@ -1,4 +1,6 @@
 import React from "react";
+import { Element } from 'react-scroll';
+
 const Programme = [
     {
         graphic: "graphic.png",
@@ -51,7 +53,7 @@ const Programme = [
 ]
 const Programmes = () => {
     return (
-        <div>
+        <Element name="what-we-offer">
             <p className="heading">
                 What We Offer
             </p>
@@ -73,7 +75,7 @@ const Programmes = () => {
                 </div>
             </div>
 
-        </div>
+        </Element>
     )
 }
 export default Programmes;
