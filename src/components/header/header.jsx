@@ -5,7 +5,7 @@ const Header =()=>{
     return(
         
             <nav className="navbar">
-                <img id="logo" src="/FLUX FITNESS/svg" alt="logo" />
+                <img id="logo" src="/logo.svg" alt="logo" />
                 <ul className="nav-bar">
                     <li><Link to = "/"> Home</Link></li>
                     <li><Link to = "/"> What We Offer</Link></li>

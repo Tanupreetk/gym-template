@@ -15,12 +15,14 @@
 }
 .nav-bar li a{
     text-decoration: none;
+    color: white;
 }
 .nav-bar li a:visited{
     
     color: inherit; 
 }
 #logo {
-    width: 140px;
-    padding: 20px;
+    width: 120px;
+    /* background-color: wheat; */
+    padding: 25px;
 }

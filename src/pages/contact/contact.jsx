@@ -1,6 +1,10 @@
 import React from "react";
 import "./contact.css";
 const Contact=()=>{
+    const handleSubmit = (e) => {
+    e.preventDefault(); 
+    console.log("Form submitted!");
+  };
     return(
         <div className="contact-container">
             <div className="img-section">
@@ -8,7 +12,7 @@ const Contact=()=>{
 <div className="form-section">
     <h1 className="get-in-touch">Get In Touch</h1>
     <p className="c-text">Ready to transform your fitness journey? Reach out to us with your questions, goals, or membership queries. Our team is here to support you every rep of the way!</p>
-    <form>
+    <form onSubmit={handleSubmit}>
           <label>Email</label>
           <input type="email" required />
           <label>Message</label>

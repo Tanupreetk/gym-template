@@ -1,25 +1,25 @@
 import React from "react";
 const pricing = [
     {
-        months: "12",
-        price: "15,690",
-        ppm: "1,121",
+        months: "3",
+        price: "3300",
+        ppm: "1,120",
+        p1: "* Only Today - FREE Amazon voucher worth $100",
+        p2: "* Get FREE 2 months extension",
+        p3: "* Only Today - FREE Amazon voucher worth $100"
+    },
+    {
+        months: "6",
+        price: "6700",
+        ppm: "1,120",
         p1: "* Only Today - FREE Amazon voucher worth $100",
         p2: "* Get FREE 2 months extension",
         p3: "* Only Today - FREE Amazon voucher worth $100"
     },
     {
         months: "12",
-        price: "15,690",
-        ppm: "1,121",
-        p1: "* Only Today - FREE Amazon voucher worth $100",
-        p2: "* Get FREE 2 months extension",
-        p3: "* Only Today - FREE Amazon voucher worth $100"
-    },
-    {
-        months: "12",
-        price: "15,690",
-        ppm: "1,121",
+        price: "13440",
+        ppm: "1,120",
         p1: "* Only Today - FREE Amazon voucher worth $100",
         p2: "* Get FREE 2 months extension",
         p3: "* Only Today - FREE Amazon voucher worth $100"
