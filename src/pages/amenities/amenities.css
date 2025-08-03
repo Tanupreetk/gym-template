@@ -1,0 +1,21 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    row-gap: 30px;
+    column-gap: 35px;
+    margin: 40px 120px 0px 120px;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img-content{
+    margin-top: 15px;
+}
+.ameinities-image{
+    width: 350px;
+    height: 255px;
+}

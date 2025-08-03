@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-bar {
+
+    align-items: center;
+    column-gap: 80px;
+    list-style: none;
+    display: inline-flex;
+    padding: 20px 150px 20px 0px;
+    
+}
+.nav-bar li a{
+    text-decoration: none;
+}
+.nav-bar li a:visited{
+    
+    color: inherit; 
+}
+#logo {
+    width: 140px;
+    padding: 20px;
+}
