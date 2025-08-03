@@ -3,7 +3,7 @@ import './App.css';
 import './styles/global.css';
 import Home from "./pages/home/home";
 import Header from "./components/header/header";
-import Amenities from "./pages/amenities/Amenities";
+import Amenities from "./pages/amenities/amenities";
 import Gallery from "./pages/gallery/gallery";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Footer from "./components/header/footer";
@@ -22,7 +22,7 @@ const App=()=>{
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="/stories" element={<Stories />} />
-        <Route path="/Amenities" element={<Amenities />} />
+        <Route path="/amenities" element={<menities />} />
         <Route path="/Gallery" element={<Gallery/>} />
         <Route path="/Contact" element={<Contact/>} />
       </Routes>
