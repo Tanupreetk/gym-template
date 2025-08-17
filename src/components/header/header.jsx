@@ -18,7 +18,9 @@ const Header =()=>{
     return(
         
             <nav className="navbar">
-                <img id="logo" src="/logo.svg" alt="logo" />
+              <a href="/" aria-label="Go to homepage">
+                <img id="logo" src="/logo.svg" alt="logo"  />
+                </a>
                 <div className="hamburger" onClick={toggleMenu}>
                   <div className={isMenuOpen ? "bar open" : "bar"}></div>
                   <div className={isMenuOpen ? "bar open" : "bar"}></div>

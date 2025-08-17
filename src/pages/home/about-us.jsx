@@ -2,7 +2,7 @@ import React from "react";
 const About = () => {
     return (
         <div>
-            <div className="content-bold" id="timings">
+            <div className="content-bold timings-section" id="timings">
                 <p className="available">We are availabe:</p>
                 <div className="timings">
                     <img class="img" src="days.png" alt="days" />

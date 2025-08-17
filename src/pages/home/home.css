@@ -13,14 +13,11 @@
 
 }
 
-
 .content {
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
     align-items: center;
 }
-
 
 
 #tagline {
@@ -46,7 +43,6 @@
     font-size: 18px;
     background-color: #A07F5D;
     border: none;
-    /* font-weight: bold; */
     color: black;
 }
 
@@ -56,19 +52,16 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    /* Optional */
     width: 100%;
 }
 
 .programmes {
-    /* max-width: 1200px; */
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     column-gap: 50px;
     row-gap: 90px;
     margin-top: 60px;
-    /* padding: 40px 80px; */
 }
 
 
@@ -83,7 +76,6 @@
     height: 240px;
     background-color: #A07F5D;
     padding: 15px;
-    /* position: relative; */
 
 }
 
@@ -91,16 +83,12 @@
     font-size: 42px;
     font-weight: 700;
     text-align: right;
-    /* padding: 20px; */
     padding-right: 12px;
-    /* margin-top: -5px; */
     color: transparent;
     -webkit-text-stroke: 1px white;
 }
 
 .first {
-    /* display: flex; */
-    /* justify-content: ; */
     position: relative;
 }
 
@@ -114,7 +102,6 @@
 
 .box-heading {
     padding: 18px;
-    /* margin-left: 18px; */
 }
 
 .box-content {
@@ -125,7 +112,6 @@
     display: flex;
     gap: 20px;
     width: 400px;
-    /* grid-template-columns: repeat(2,1fr); */
 }
 
 .discover-img {
@@ -149,7 +135,6 @@
 }
 
 .view-btn {
-    /* margin-top: 50px; */
     width: 224px;
     height: 44px;
     border-radius: 41px;
@@ -157,7 +142,6 @@
     color: #A07F5D;
     font-size: 19px;
     font-style: normal;
-    /* font-weight: 700; */
     line-height: normal;
     background: #040404;
 
@@ -260,13 +244,11 @@
     display: flex;
     justify-content: space-between;
     padding: 18px 8px 15px 8px;
-    /* height: px; */
     border-bottom: 0.8px solid #4A4558;
 }
 
 .pricing {
     display: flex;
-    /* grid-template-columns: repeat(3, 1fr); */
     justify-content: center;
     gap: 60px;
 }
@@ -361,7 +343,8 @@
         grid-template-columns: 1fr;
     }
     .header{
-        height: 400px;
+        max-width: 100%;
+        height: auto;
         background-position: top;
     }
     #tagline{
@@ -385,6 +368,71 @@
         height: auto;
         padding-bottom: 20px;
     }
+   .timings-section{
+    width: 100%;
+   }
+   .programmes,
+  .trainers,
+  .pricing {
+    grid-template-columns: 2fr !important;
+    gap: 50px;
+    padding: 0 40px;
+
+  }
+  #aboutus-content{
+    max-width: 100%;
+    padding: 0 50px;
+  }
+
+  .boxes,
+  .price-box {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  
+
+  .navbar a {
+    margin-bottom: 10px;
+  }
+
+  #hero {
+    text-align: center;
+    padding: 40px 20px;
+  }
+
+  #hero h1 {
+    font-size: 28px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+ 
+
+  .contact-container {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .form-section,
+  .img-section {
+    width: 100%;
+  }
+
+  .footer {
+    padding: 20px;
+    text-align: center;
+  }
+
+  .scroll-link {
+    font-size: 16px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
 }
 @media (max-width:480px) {
     .header{
@@ -418,69 +466,37 @@
     }
 }
 @media (max-width: 768px) {
-  .programmes,
-  .trainers,
-  .pricing {
-    grid-template-columns: 1fr !important;
-    gap: 20px;
-    padding: 0 16px;
-  }
-
-  .boxes,
-  .price-box {
-    width: 100% !important;
-    max-width: 320px;
-    margin: 0 auto;
-  }
-
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 16px;
-  }
-
-  .navbar a {
-    margin-bottom: 10px;
-  }
-
-  #hero {
-    text-align: center;
-    padding: 40px 20px;
-  }
-
-  #hero h1 {
-    font-size: 28px;
-  }
-
-  #hero p {
-    font-size: 16px;
-  }
-
-  #timings {
-    padding: 20px;
-    width: 100% !important;
-  }
-
-  .contact-container {
-    flex-direction: column;
-    padding: 20px;
-  }
-
-  .form-section,
-  .img-section {
-    width: 100%;
-  }
-
-  .footer {
-    padding: 20px;
-    text-align: center;
-  }
-
-  .scroll-link {
-    font-size: 16px;
-  }
-
-  h2 {
-    font-size: 22px;
-  }
+    
+  
+}
+@media (max-width: 769px) and (max-width: 992px) {
+    .pricing {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 30px;
+        padding: 0 20px;
+    }
+    
+    
+    .price-box {
+        
+        width: calc(50% - 7px);
+        min-width: 250px;
+        max-width: 300px;
+        /* height: auto; */
+        /* min-height: 320px; */
+        padding: 15px;
+        box-sizing: border-box;
+    }
+      .price {
+        width: 100%;
+        max-width: 100%;
+        padding: 15px 5px 12px 5px;
+    }
+    .price-box:nth-child(3) {
+        width: 100%;
+        max-width: 350px;
+        margin: 20px auto 0 auto;
+    }
 }
